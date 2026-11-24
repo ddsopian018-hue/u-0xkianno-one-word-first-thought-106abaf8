@@ -4,7 +4,7 @@
 Writes exactly one word to $MAKEFUN_OUTPUT_DIR/entry.txt
 (falling back to /output when the variable is unset).
 
-The word: petrichor -- the scent of earth after rain. It is
+The word: petrichor -- the scent of earth after rain, chosen from a shortlist of vivid first-thought words. It is
 surprising (a word few readers would guess), vivid and specific
 (one smell calls up a whole rainy afternoon), and carries a spark
 of sound and double meaning (petr-, stone, + -ichor, the blood of
@@ -15,7 +15,7 @@ tie-break in the judge's ranking.
 import os
 from pathlib import Path
 
-# The entry word. See the module docstring for the reasoning.
+# The entry word, final pick. See the module docstring for the reasoning.
 WORD = "petrichor"
 
 
